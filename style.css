@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 20px;
+    
+}
+
+.sidebar h1 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 30px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+.content {
+    margin-left: 300px;
+    margin-right: 320px;
+    padding: 20px;
+    flex: 1;
+}
+
+.stories {
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+}
+
+.story {
+    margin-right: 10px;
+    text-align: center;
+}
+
+.story img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post {
+
+    padding: 10px;
+    margin-bottom: 20px;
+    width:20px;
+    justify-content: center;
+
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.post img {
+    width: 75%;
+    margin-left: 10px;
+    margin-right: 50px;
+
+}
+
+
+.action-button {
+    justify-content: left;
+    background: none;
+    border: none;
+   
+}
+
+.action-button i {
+    font-size: 25px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.post-actions button {
+    margin: 5px;
+    padding: 5px 10px;
+
+}
+
+.comments {
+    margin-top: 10px;
+}
+.likes {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.aside {
+    width: 300px;
+  
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 120px;
+    height: 100vh;
+    
+}
+
+.aside .post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+.aside .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.aside .username {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+.aside .Follow {
+    cursor: pointer;
+    color: #007bff;}
+
+.suggested-title {
+    margin-bottom: 10px; 
+}
